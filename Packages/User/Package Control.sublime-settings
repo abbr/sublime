@@ -1,0 +1,13 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"HTML-CSS-JS Prettify",
+		"Nodejs",
+		"Package Control",
+		"PackageResourceViewer"
+	]
+}
