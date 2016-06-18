@@ -1,0 +1,7 @@
+{
+    "cmd": ["grunt"],
+    "working_dir": "${project_path:${folder}}",
+    "windows": {
+        "cmd": ["grunt.cmd"]
+    }    
+}
