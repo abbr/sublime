@@ -6,11 +6,13 @@
 	"installed_packages":
 	[
 		"All Autocomplete",
+		"ColorPicker",
 		"Emmet",
 		"Git",
 		"GitGutter",
 		"Gulp",
 		"HTML-CSS-JS Prettify",
+		"Markdown Preview",
 		"Nodejs",
 		"Package Control",
 		"PackageResourceViewer",
