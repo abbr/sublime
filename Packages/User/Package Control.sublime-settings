@@ -13,11 +13,13 @@
 		"GitGutter",
 		"Gulp",
 		"HTML-CSS-JS Prettify",
+		"jsfmt",
 		"Markdown Preview",
 		"Nodejs",
 		"Package Control",
 		"PackageResourceViewer",
 		"Pretty JSON",
+		"Pretty YAML",
 		"Terminal",
 		"TypeScript"
 	]
