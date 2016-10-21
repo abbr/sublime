@@ -1,0 +1,26 @@
+{
+  "autoformat": false,
+  "extensions": [
+    "js",
+    "jsx",
+    "sublime-settings"
+  ],
+  "options": {
+    "jsx": {
+      "JSXExpressionsSingleLine": true,
+      "alignWithFirstAttribute": false,
+      "attrsOnSameLineAsTag": false,
+      "firstAttributeOnSameLine": true,
+      "formatJSX": true,
+      "formatJSXExpressions": true,
+      "htmlOptions": {
+      },
+      "maxAttrsOnTag": 1,
+      "removeSpaceBeforeClosingJSX": false,
+      "spaceInJSXExpressionContainers": " "
+    },
+    "plugins": [
+      "esformatter-jsx"
+    ]
+  }
+}
