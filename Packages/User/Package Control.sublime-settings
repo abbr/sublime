@@ -2,6 +2,12 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
+		"jsfmt",
+		"Markdown Preview",
+		"Nodejs",
+		"PackageResourceViewer",
+		"Terminal",
+		"TypeScript"
 	],
 	"installed_packages":
 	[
