@@ -1,16 +1,16 @@
 [{
-  "keys": ["ctrl+shift+h"],
+  "keys": ["ctrl+shift+y"],
   "command": "htmlprettify"
 }, {
-  "keys": ["ctrl+alt+h", "p"],
+  "keys": ["ctrl+alt+y", "p"],
   "command": "htmlprettify_set_prettify_prefs"
 }, {
-  "keys": ["shift+alt+h", "o"],
+  "keys": ["shift+alt+y", "o"],
   "command": "htmlprettify_set_plugin_options"
 }, {
-  "keys": ["ctrl+alt+h", "k"],
+  "keys": ["ctrl+alt+y", "k"],
   "command": "htmlprettify_set_keyboard_shortcuts"
 }, {
-  "keys": ["ctrl+alt+h", "n"],
+  "keys": ["ctrl+alt+y", "n"],
   "command": "htmlprettify_set_node_path"
 }]
