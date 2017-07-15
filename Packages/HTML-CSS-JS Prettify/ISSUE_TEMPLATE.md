@@ -1,30 +1,21 @@
-# Make sure these boxes are checked before submitting your issue:
-- [ ] Have you installed the most recent version of Node.js? (8.0.0+)
-- [ ] Is the Node.js path in the "Plugin Options" pointing to the most recent version of Node.js?
+<!-- To get help, you must provide the following information: -->
 
-** This issue will be automatically deleted if the information detailed below isn't provided.**
+<!-- * Have you installed the most recent version of Node.js (8.0.0+)? -->
+<!-- * Is the Node.js path in the "Plugin Options" pointing to the most recent version of Node.js? -->
+<!-- * What Sublime Text version are you using? -->
+<!-- * What is the console output when prettifying? (View -> Show Console) -->
+<!-- * What is your node.js version and real installation path? -->
+<!-- * Any custom .jsbeautifyrc files? -->
+<!-- * Any custom .editorconfig files? -->
+<!-- * What are your "Prettify Preferences" Default/User file contents? -->
+<!-- * What are your "Plugin Options" Default/User file contents? -->
+<!-- * What version of this plugin are you using (which you can find in the package.json file under the installation directory)? -->
+<!-- * What file are you trying to prettify? -->
 
-### What is your environment?
-Please include as much as you can of the following:
-* Sublime Text version
-* Sublime console output (View -> Show Console)
-* Node.js version and real installation path
-* Any custom .jsbeautifyrc file(s)
-* Any custom .editorconfig file(s)
-* Your "Prettify Preferences" Default/User file(s) 
-* Your "Plugin Options" Default/User file(s)
-* This plugin's version (which you can find in the package.json file under the installation directory)
-* The file you intended to prettify
+<!-- Expected vs. actual behavior -->
+<!-- What is the expected behavior? What should happen but doesn't? What's happening instead of the expected behavior? A screenshot or a detailed explanation would be useful! -->
 
-### Expected behavior
-What is the expected behavior? What should happen but doesn't?
+<!-- Steps to reproduce the behavior -->
+<!-- How can someone else run into the same issue? What can the developers of this plugin do to encounter the same issue? -->
 
-### Actual behavior
-What's happening instead of the expected behavior? A screenshot or a detailed explanation would be useful!
-
-### Steps to reproduce the behavior
-How can someone else run into the same issue? How can the developers of this plugin encounter the same issue?
-
-### If this is a feature request regarding prettification rules and code style, please file it here: https://github.com/beautify-web/js-beautify
-
-**Please note by far the quickest way to get a new feature is to file a Pull Request.**
+<!-- If this is a feature request regarding prettification rules and code style, please file it here: https://github.com/beautify-web/js-beautify -->
