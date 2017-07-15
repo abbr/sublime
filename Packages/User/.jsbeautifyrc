@@ -1,0 +1,16 @@
+{
+
+  "all":
+  {
+    // Indentation size
+    "indent_size": 2,
+  },
+  "custom":
+  {
+    "*.sublime-@(settings|keymap|commands|menu)":
+    {
+      "indent_size": 2,
+    }
+  }
+
+}
