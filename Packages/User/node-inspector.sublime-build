@@ -1,0 +1,4 @@
+{
+    "cmd": ["node-debug.cmd", "$file"],
+    "selector": "source.js"
+}
