@@ -8,12 +8,8 @@
     }
 },
 {
-    "keys": ["ctrl+shift+c"],
-    "command": "exec",
-    "args":
-    {
-        "kill": true
-    }
+    "keys": [""],
+    "command": "cancel_build"
 },
 {
     "keys": ["ctrl+shift+y"],
