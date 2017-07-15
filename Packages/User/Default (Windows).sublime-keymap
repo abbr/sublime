@@ -34,4 +34,8 @@
 {
     "keys": ["ctrl+alt+y", "n"],
     "command": "htmlprettify_set_node_path"
+},
+{
+    "keys": ["ctrl+alt+p"],
+    "command": "prompt_select_workspace"
 }]
