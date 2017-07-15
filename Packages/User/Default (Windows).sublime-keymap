@@ -13,7 +13,17 @@
 },
 {
   "keys": ["ctrl+shift+y"],
-  "command": "htmlprettify"
+  "command": "js_prettier"
+},
+{
+  "keys": ["ctrl+shift+y"],
+  "command": "htmlprettify",
+  "context": [
+  {
+    "key": "selector",
+    "operator": "equal",
+    "operand": "source.json"
+  }]
 },
 {
   "keys": ["ctrl+shift+y"],
