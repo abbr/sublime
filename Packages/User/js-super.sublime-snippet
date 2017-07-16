@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+super.${1} && super.${1}(${2})
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>super</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.js</scope>
+</snippet>

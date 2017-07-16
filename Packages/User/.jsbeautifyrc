@@ -1,5 +1,4 @@
 {
-
   "all":
   {
     // Indentation size
@@ -9,8 +8,8 @@
   {
     "*.sublime-@(settings|keymap|commands|menu)":
     {
-      "indent_size": 2,
+      // Indent with tabs, overrides `indent_size` and `indent_char`
+      "indent_with_tabs": true,
     }
   }
-
 }
