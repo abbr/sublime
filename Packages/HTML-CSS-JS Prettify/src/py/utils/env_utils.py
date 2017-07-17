@@ -16,12 +16,14 @@ class NodeNotFoundError(OSError):
         OSError.__init__(self, msg + (": %s" % original_exception))
         self.node_path = node_path
 
+
 class NodeRuntimeError(RuntimeError):
     def __init__(self, stdout, stderr):
         msg = "Node.js encountered a runtime error"
         RuntimeError.__init__(self, msg + (": %s\n%s" % (stderr, stdout)))
         self.stdout = stdout
         self.stderr = stderr
+
 
 class NodeSyntaxError(RuntimeError):
     def __init__(self, stdout, stderr):
@@ -53,9 +55,11 @@ def run_command(args):
     stdout, stderr = subprocess.Popen(args, **popen_args).communicate()
     if stderr:
         if b"SyntaxError" in stderr:
-            raise NodeSyntaxError(stdout.decode('utf-8'), stderr.decode('utf-8'))
+            raise NodeSyntaxError(
+                stdout.decode('utf-8'), stderr.decode('utf-8'))
         else:
-            raise NodeRuntimeError(stdout.decode('utf-8'), stderr.decode('utf-8'))
+            raise NodeRuntimeError(
+                stdout.decode('utf-8'), stderr.decode('utf-8'))
 
     return stdout
 
@@ -67,7 +71,9 @@ def run_node_command(args):
     try:
         stdout = run_command([node_path] + args)
     except OSError as err:
-        if node_path in err.strerror:
+        if node_path in err.strerror or \
+            "No such file or directory" in err.strerror or \
+            "The system cannot find the file specified" in err.strerror:
             raise NodeNotFoundError(err, node_path)
         else:
             raise err
