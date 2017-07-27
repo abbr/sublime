@@ -1,9 +1,13 @@
+.DS_Store
+/Cache/
+/Index/
 /Local/
 /Backup/
 /Projects/
-/Packages/User/Package Control.cache
-/Packages/User/Package Control.last-run
+/Packages/User/Package Control.*
+/Packages/User/Package Control
+/Packages/User/oscrypto-ca-bundle.crt
 node_modules/
-/Packages/*
 /Installed Packages/
-!/Packages/User
+/Packages/*
+!/Packages/User/
