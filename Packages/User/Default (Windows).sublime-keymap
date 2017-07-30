@@ -54,4 +54,12 @@
 {
   "keys": ["ctrl+alt+p"],
   "command": "prompt_select_workspace"
+},
+{
+  "keys": ["ctrl+shift+b"],
+  "command": "show_panel",
+  "args":
+  {
+    "panel": "output.exec"
+  }
 }]
