@@ -1,0 +1,53 @@
+[
+	{
+		"args":
+		{
+			"by": "words",
+			"forward": false
+		},
+		"command": "move"
+	},
+	{
+		"args":
+		{
+			"characters": "<"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "i"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": ">"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"by": "word_ends",
+			"forward": true
+		},
+		"command": "move"
+	},
+	{
+		"args":
+		{
+			"characters": "<"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"insert_slash": true
+		},
+		"command": "close_tag"
+	}
+]
