@@ -6,6 +6,7 @@
 	"installed_packages":
 	[
 		"All Autocomplete",
+		"ANSIescape",
 		"Babel",
 		"ColorPicker",
 		"Git",
@@ -14,7 +15,6 @@
 		"JsPrettier",
 		"LESS",
 		"Markdown Preview",
-		"Nodejs",
 		"Package Control",
 		"PackageResourceViewer",
 		"Pretty YAML",
