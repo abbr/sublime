@@ -4,6 +4,9 @@
     // Indentation size
     "indent_size": 2,
   },
+  "json":{
+    "brace_style": "collapse-preserve-inline"
+  },
   "custom":
   {
     "*.sublime-@(settings|keymap|commands|menu)":
