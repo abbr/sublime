@@ -10,21 +10,7 @@
 	{
 		"args":
 		{
-			"characters": "<"
-		},
-		"command": "insert"
-	},
-	{
-		"args":
-		{
-			"characters": "i"
-		},
-		"command": "insert"
-	},
-	{
-		"args":
-		{
-			"characters": ">"
+			"characters": "<i>"
 		},
 		"command": "insert"
 	},
@@ -39,15 +25,8 @@
 	{
 		"args":
 		{
-			"characters": "<"
+			"characters": "</i>"
 		},
 		"command": "insert"
-	},
-	{
-		"args":
-		{
-			"insert_slash": true
-		},
-		"command": "close_tag"
 	}
 ]
