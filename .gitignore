@@ -11,3 +11,4 @@ node_modules/
 /Installed Packages/
 /Packages/*
 !/Packages/User/
+!/Packages/Default
