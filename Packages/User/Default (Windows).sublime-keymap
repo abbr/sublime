@@ -36,6 +36,16 @@
   }]
 },
 {
+  "keys": ["ctrl+shift+y"],
+  "command": "vueformatter",
+  "context": [
+  {
+    "key": "selector",
+    "operator": "equal",
+    "operand": "text.html.vue"
+  }]
+},
+{
   "keys": ["ctrl+alt+y", "p"],
   "command": "htmlprettify_set_prettify_prefs"
 },
